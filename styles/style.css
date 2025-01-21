@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+  /*navbar related style*/
+  .logo-img{
+    align-items:center;
+    justify-content:center;
+  }
+  .brand{
+    font-size: 2rem;
+    font-weight:bold;
+  }
+  .navbar{
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+  }
+  .nav-item{
+    list-style: none;
+    margin-right:30px;
+  }
+  .home-link{
+     color: #FEA301;
+     text-decoration: none;
+     font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .about-link{
+    color: #01ACFD;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .facilities-link{
+    color: rgba(5, 212, 223, 1);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .admission-link{
+    color: rgba(93, 88, 239, 1);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  .btn{
+    background-color:#FEA301;
+    border-radius: 12px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    width:197px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-style:none;
+  }
+
+  /*banner related style*/
+  .banner{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+   .empowering{
+    color: #FEA301;
+    font-size:3.5rem;
+    font-weight:bold;
+   }
+   .text-1{
+    font-size:3.5rem;
+    font-weight:bold;
+   }
+   .text-2{
+    color:#01ACFD;
+    font-size:3.5rem;
+    font-weight:bold;
+   }
+   .description{
+    font-size: 1.2rem;
+    font-weight:400;
+    color:#111111;
+   }
+    .banner-img{
+      float:right;
+    }
+    .btn-primary{
+      font-size: 1.2rem;
+      font-weight:bold;
+      border-radius: 12px;
+      background-color: #111111;
+      color: rgba(255, 255, 255, 1);
+      width: 197px;
+      height: 50px;
+    }
+   .navbar, .banner{
+    max-width: 1366px;
+    margin:0 auto;
+  }
