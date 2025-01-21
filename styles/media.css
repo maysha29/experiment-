@@ -1,0 +1,17 @@
+@media screen and (max-width:576px) {
+    .navbar > h1, .nav-links, .menu-btn{
+       display: none;
+    }
+    .menuIcon{
+        display: block;
+    }
+    .navbar img{
+        margin: 12px;
+    }
+    .banner-container{
+        text-align: center;
+    }
+    .banner {
+        flex-direction: column-reverse;
+    }
+}
